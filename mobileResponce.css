@@ -1,0 +1,175 @@
+/* @media (min-width: 576px) and (max-width: 767.98px) {
+    .comp-logo {
+        width: 100px;
+    }
+
+    .welcome {
+        font-size: 10px;
+    }
+
+} */
+
+@media (max-width: 575.98px) {
+  .company{
+    height: 60vh;
+  }
+    .comp-logo {
+        width: 250px;
+    }
+
+    .fontStyle {
+        font-size: 40px;
+        margin-top: 20px;
+    }
+
+    .fontStyle1 {
+        font-size: 18px;
+    }
+
+    .cardSize {
+        width: 90vw;
+        left: -35px;
+
+    }
+    .welcome {
+        font-size: 30px;
+    }
+
+    .aboutFirst {
+        background-image: url("./Mobileview/About.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        /* position: absolute; */
+        color: white;
+        padding-top: 0px;
+        height: 95vh;
+        background-size: cover;
+        width: 100%;
+    }
+
+    .aboutSecond {
+      
+        text-align: center;
+        padding: 20px;
+        
+    }
+
+    .projects {
+        height: 110vh;
+        
+        width: 100%;
+        border-radius: 0px;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .projectCards{
+        transition-duration: 1.2s;
+        padding: 0px;
+        padding-left: 0px;
+        width: 90vw;
+        display: flex;
+        top: 0px;
+        margin: 10px;
+    }
+  
+    .CompanyContainer {
+        width: 100%;
+        overflow: hidden;
+        padding: 10px;
+       
+      }
+      
+      .carouselContainer {
+        display: flex;
+        animation: scroll 15s linear infinite; /* Adjust the duration as needed */
+        
+      }
+      
+      .companyItem {
+        width: 200px;
+        height: 250px;
+        flex: 0 0 auto;
+        margin-right: 10px; /* Adjust spacing between items */
+        text-align: center;
+        color: black;
+        background-color: rgb(255, 255, 255);
+        border-radius: 15px;
+      }
+     .companyItem h2{
+        font-size: 20px;
+     }
+     .companyItem p{
+        font-size: 15px;
+     }
+      
+      @keyframes scroll {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-200%);
+        }
+      }
+      
+      /* Pause animation on hover */
+      .CompanyContainer:hover .carouselContainer {
+        animation-play-state: paused;
+      }
+      
+      .faq-container {
+        max-width: 80%;
+      }
+      .faq-container {
+        max-width: 300px;
+        margin: 0 auto;
+      }
+      .faq-card {
+        border-radius: 5px;
+        margin-bottom: 10px;
+        padding: 10px;
+        background-color: #f9f9f9;
+
+        color: black;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      .faq{
+        display: flex;
+        justify-content: center;
+        padding-left: 43%;
+      }
+      .faq-question {
+    
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .faq-answer {
+        display: none;
+      }
+      .faq-toggle {
+        font-size:1.2em; /* Increase icon size */
+        color: black; /* Change icon color */
+        cursor: pointer;
+      }
+      /* Part 4 */
+      .part4{
+        height: 75vh;
+      }
+      .plotProjects{
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+      }
+      /* latest update */
+      
+
+
+
+
+
+
+}

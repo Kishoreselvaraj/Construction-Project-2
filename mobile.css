@@ -1,0 +1,393 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;background-color: #000000;
+  color: #f0f0f0;
+}
+
+html {
+  height: 100%;
+}
+
+.comp-logo {
+  width: 300px;
+}
+
+/* Navigation start */
+#navbarNav {
+  justify-content: end;
+}
+
+#nav-bar a {
+  font-weight: 600;
+  padding-bottom: 5px;
+  font-size: 20px;
+  color: #000000;
+  margin-left: 30px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  position: relative;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a::after {
+  content: '';
+  position: absolute;
+  width: 0; /* Adjust this */
+  height: 2px;
+  bottom: -5px; /* Adjust this */
+  left: 50%; /* Center the underline */
+  background-color: #007bff; /* Change this to your desired underline color */
+  transform: translateX(-50%) scaleX(0); /* Center and scale */
+  transition: width 0.3s, transform 0.3s ease; /* Add transition for width */
+}
+
+nav ul li a:hover::after {
+  width: 100%; /* Expand the underline */
+  transform: translateX(-50%) scaleX(1); /* Center and scale */
+}
+
+/* Optional: Add hover effect to change text color */
+#nav-bar a:hover {
+  color: #007bff; /* Change this to your desired hover color */
+}
+
+/* slide--bar */
+.slide-img {
+  height: 90vh;
+  background-size: cover;
+  width: 160%;
+  flex-shrink: 0;
+}
+
+.rowSlideImage > * {
+  padding-right: calc(var(--bs-gutter-x) * 0);
+  padding-left: calc(var(--bs-gutter-x) * 0);
+}
+
+/* Captions */
+.cardSize {
+  background: rgba(16, 15, 15, 0.6);
+  color: aliceblue;
+  display: flex;
+  top: -150px;
+}
+
+.fontStyle {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+}
+
+.fontStyle1 {
+  font-family: Anton;
+  font-size: 28px;
+  display: flex;
+  justify-content: end;
+  padding: 20px;
+  padding-right: 50px;
+}
+
+/* Welcome Container */
+.welcome {
+  background-image: url("./Mobileview/welcome\ back\ mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  position:relative;
+  color: aliceblue;
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  /* font-family: Roboto; */
+  font-size: 40px;
+  padding-top: 80px;
+  padding: 50px;
+  text-align: center;
+  align-items: center;
+}
+
+.displayLearn {
+  font-family: Roboto;
+  font-size: 20px;
+}
+
+#learnBtn {
+  position: relative;
+}
+
+.btnblack {
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+
+.btnblack:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border-color: white;
+}
+
+.btnwhite {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-color: rgb(0, 0, 0);
+}
+
+.btnwhite:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-color: rgb(0, 0, 0);
+}
+
+/* About us */
+.about {
+  height: 10vh;
+}
+
+.aboutHead {
+  font-weight: 600;
+}
+
+.aboutImg {
+  width: 45vw;
+  height: 45vh;
+}
+
+.aboutbtn {
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border: none;
+}
+
+.green {
+  color: green;
+  font-weight: 600;
+}
+
+.projects {
+  justify-content: start;
+  width: 45vw;
+  background-color: white;
+  border-radius: 15px;
+  border: none;
+}
+
+.projects:hover {
+  background-color: black;
+  color: white;
+}
+
+.img {
+  margin: 10px;
+}
+
+.title {
+  text-align: start;
+  margin: 5px;
+  margin-left: 40px;
+  font-size: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content {
+  text-align: start;
+  margin: 10px;
+  margin-left: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* OurTeam */
+.ourTeam {
+  height: 30vh;
+  background-image: url("./photos/advertise.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.btnourTeam {
+  float: inline-end;
+  padding-top: 18vh;
+  padding-right: 23vh;
+}
+
+/* Partner company */
+.company {
+  height: 60vh;
+}
+
+.companytext {
+  
+ text-align: center;
+  font-weight: 600;
+}
+
+/* .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cardCompany {
+  width: 200px;
+  height: 250px;
+  /* padding: 20px;
+  margin: 20px; */
+  /* border: 1px solid #ccc;
+  border-radius: 8px;
+  
+} */ 
+
+
+
+.cardCompany img {
+  max-width: 80%;
+  border-radius: 8px;
+  padding-left: 40px;
+}
+
+.cardCompany h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.cardCompany p {
+  color: rgba(0, 0, 0, 0.50);
+}
+
+/* Client Testimonials */
+.testimonials {
+  height: 50vh;
+  margin-top: 30px;
+  margin: 30px;
+}
+
+.scrolling-container {
+  overflow-x: auto;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.scrolling-item {
+  display: inline-block;
+  width: 360px; /* Adjust as needed */
+  height: 215px; /* Adjust as needed */
+  background-color: #f0f0f0;
+  margin-right: 10px; /* Adjust spacing between items */
+  overflow: hidden;
+}
+
+
+ /* plots */
+.part4{
+  height: 85vh;
+ 
+}
+.plotProjects{
+  justify-content: start;
+  width: 90vw;
+  background-color: white;
+  border-radius: 15px;
+  border: none;
+  margin:0px 20px 10px 20px;
+
+}
+.imgPlot{
+  margin: 20px;
+  width: 80px;
+  
+}
+.titlePlot{
+  text-align: start;
+  margin: 5px 5px 5px 45px;
+  font-size: 14px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.contentPlot{
+  font-size: 10px;
+  text-align: start;
+  margin: 10px 5px 5px 50px;
+}
+/* latest update */
+.latestimg{
+  width: 100%;
+}
+.updateBtn{
+  display: flex;
+  float: right;
+  margin: 10px;
+}
+
+.askme{
+  display: flex;
+  bottom: 30px;
+  height: 40vh;
+  background-image: url("./Mobileview/mobile\ ask\ bg.png");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-color: #ccc;
+  color: white;
+  
+  }
+  .askHow{
+    display: flex;
+    color: #ffffff;
+    font-size: 16px;
+    
+  }
+  .asktext{
+    font-size: 20px;
+    color: #ffffff;
+    font-size: 12px;
+  }
+  .input-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 50px; /* Apply border radius to the container */
+    overflow: hidden; /* Hide overflow for the rounded corners */
+  }
+  
+  .question-input {
+    flex: 1;
+    border: none;
+    border-radius: 50px 0 0 50px; /* Apply border radius to the input field */
+    padding: 20px;
+    font-size: 14px;
+  }
+  
+  .post-button {
+    padding: 20px 15px;
+    background: linear-gradient(45deg,#f8c4c4, #ff0000, #fdc2c2); /* Red and white gradient background */
+    color: #fff;
+    border: none;
+    border-top-right-radius: 50px; /* Apply border radius to the right side of the button */
+    border-bottom-right-radius: 50px; /* Apply border radius to the right side of the button */
+    cursor: pointer;
+    font-size: 12px;
+  }

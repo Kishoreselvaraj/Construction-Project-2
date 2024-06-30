@@ -1,0 +1,93 @@
+@media (min-width: 1200px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
+    }
+
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* Caption */
+    .fontStyle{
+        font-size: 70px;
+    }
+    .fontStyle1{
+        font-size: 20px;
+    }
+    /* About section */
+    .services{
+        margin-top: 5rem !important;
+    }
+    .title{
+        font-size: 16px;
+        margin-left: 70px;
+    }
+    .content{
+        font-size: 14px;
+        margin-left: 70px;
+    }
+    .aboutpara{
+        font-size: 14px;
+    }
+    /* Partner Company */
+    .company{
+        height: 50vh;
+    }
+    .containerCompany{
+        margin-top: 40px;
+    }
+    .cardCompany{
+        padding: 10px;
+        margin: 5px;
+        height: 210px;
+    }
+    .cardCompany img{
+        padding-left: 0px;
+    }
+    .cardCompany h2{
+        font-size: 14px;
+    }
+    .cardCompany p{
+        font-size: 10px;
+    }
+    /* FAQ Dropdown */
+    .faq-container{
+        max-width: 400px;
+    }
+
+    /* plots */
+    .plots{
+        padding: 9px;
+        padding-left: 40px;
+        padding-right: 40px;
+        height: 140vh;
+    }
+    .titlePlot{
+        margin: 25px 5px 5px 55px;
+        font-size: 14px;
+    }
+    .contentPlot{
+        margin: 10px 5px 5px 55px;
+        font-size: 10px;
+    }
+    /* latest update */
+    .updateRow{
+        margin-left: 15px;
+    }
+    .slide-img1{
+        height: 58vh;
+    }
+    .ads{
+        height: 124.5vh;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}

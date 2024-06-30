@@ -1,0 +1,140 @@
+/* Footer */
+/* Bottom video start*/
+.video-container{
+    position: absolute;
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.bottom-vid{
+    position: absolute;
+    height: fit-content;
+    object-fit: cover;
+}
+
+.vid-des {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity of black shade */
+}
+
+@media(min-aspect-ratio:16/9){
+    .vid-des{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media(max-aspect-ratio:16/9){
+    .vid-des{
+        width: auto;
+        height: 100%;
+    }
+}
+/* Bottom video end */
+
+/* Bottom address start */
+.bottom-content{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    right: 50px;
+}
+
+.bottom-content h1{
+    color: aliceblue;
+}
+
+.bottom-content p{
+    font-size: 23px;
+    text-align: justify;
+}
+
+.quick-links{
+    position: absolute;
+    top: 230px;
+    left: 50px;
+}
+
+.quick-links h1{
+    color: aliceblue;
+}
+
+.quick-links li{
+    list-style: none;
+    color: aliceblue;
+    font-size: 21px;
+    margin-top: 8px;
+}
+
+.address-det{
+    position: absolute;
+    top: 250px;
+    left: 40vw;
+    right: 7vw;
+}
+
+.address-det h1{
+    color: aliceblue;
+}
+
+.address-det h2{
+    color: aliceblue;
+    font-size: 23px;
+}
+
+.address-det p{
+    text-align: justify;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.address-det p:hover{
+    color: yellow;
+}
+
+.address-det a{
+    text-decoration: none;
+}
+/* Bottom address end */
+
+/* Bottom content comp logo */
+.comp-logo-bottom{
+    position: absolute;
+    bottom: 2vw;
+    left: 5vw;
+}
+
+.comp-logo-bottom .comp-logo{
+    border-radius: 40px;
+    width: 15vw;
+}
+
+.comp-logo-bottom p{
+    margin-top: 40px;
+    text-align: start;
+    margin-left: 8px;
+    font-size: 15px;
+}
+/* Bottom content comp logo */
+
+/* Bottom content contact det start */
+.contact-det{
+    position: absolute;
+    bottom: 8vh;
+    right: 20px;
+}
+
+.contact-img{
+    background-color: aliceblue;
+    width: 40px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+/* Bottom content contact det end */
